@@ -5,12 +5,10 @@
 ## **_HTML:_**
 
 1. Introduction. More about Web. Environment setup. The structure of HTML document. Resources.
-2. Elements and attributes. Headings & paragraphs. Formatting. Comments.
-3. Links, images, lists, tables.
-4. Block and inline elements. div & span. Class, id and style attributes. Inline and internal styling.
-5. Form elements.
-6. Audio, video and iframe. Layout and Semantics.
-7. Rules of clean code. Simple Project.
+2. Elements and attributes. Headings & paragraphs. Formatting. Comments. Links.
+3. Images. Block and inline elements. div & span. Class, id and style attributes. Inline and internal styling.
+4. Form elements. Lists, tables.
+5. Audio, video and iframe. Layout and Semantics. Rules of clean code.
 
 ## **_CSS:_**
 
