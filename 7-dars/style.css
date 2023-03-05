@@ -1,0 +1,74 @@
+/* div {
+  color: red;
+}
+
+body {
+  color: green;
+}
+
+p {
+  color: blue !important;
+}
+
+.text {
+  color: aqua;
+} */
+
+/* Descendant selector */
+
+/* div p {
+  color: red;
+} */
+
+/* Child selector */
+
+/* div > p {
+  color: red;
+} */
+
+/* Adjacent sibling selector */
+
+/* div + p {
+  color: red;
+} */
+
+/* General sibling selector */
+/* ~ - tilde */
+
+/* div ~ p {
+  color: red;
+} */
+
+/* -------------------------- */
+
+.text_red {
+  color: red;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.text_italic {
+  font-style: italic;
+}
+
+.text_centered {
+  text-align: center;
+}
+
+.padding_40 {
+  padding: 40px;
+}
+
+/* h1 {
+  color: red;
+} */
+
+h1.active {
+  color: red;
+}
+
+input[type="text"] {
+  color: red;
+}
