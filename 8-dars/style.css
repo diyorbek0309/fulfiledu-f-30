@@ -1,0 +1,30 @@
+h1 {
+  /* top = 30; right = 40; bottom = 50; left = 60; */
+  padding: 30px 40px 50px 60px;
+  /* padding: 60px 30px; */
+  /* padding-left: 30px;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-bottom: 60px; */
+  margin: 40px;
+  /* border-width: 5px;
+  border-color: red;
+  border-style: solid; */
+  border: 5px solid red;
+  border-top: 10px dashed blue;
+  /* border-style: dashed; */
+  /* border-style: double; */
+  box-sizing: border-box;
+  height: 90px;
+}
+
+h2 {
+  border: 2px solid black;
+  margin-top: 60px;
+  /* max-width: 400px; */
+  min-width: 400px;
+  height: auto;
+  /* height: auto; */
+  /* max-height: 200px; */
+  /* min-height: 200px; */
+}
