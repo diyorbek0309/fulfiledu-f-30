@@ -1,0 +1,56 @@
+b,
+strong {
+  display: inline-block;
+  background-color: aqua;
+  text-align: center;
+}
+
+b {
+  width: 300px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  display: none;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+}
+
+.first {
+  float: right;
+}
+
+/* p { */
+/* text-decoration: underline; */
+/* text-decoration: line-through; */
+/* text-decoration: none; */
+/* text-transform: none; */
+/* text-transform: capitalize; */
+/* text-transform: lowercase; */
+/* text-transform: uppercase; */
+/* } */
+
+p:hover {
+  color: green;
+}
+
+p:active {
+  color: red;
+}
+
+ul li:first-child {
+  color: orange;
+}
+
+ul li:last-child {
+  color: red;
+}
+
+ul li:nth-child(2) {
+  color: green;
+}
+
+ul li:nth-child(3) {
+  color: yellow;
+}
