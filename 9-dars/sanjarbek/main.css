@@ -1,0 +1,76 @@
+/*
+ *
+ * @format
+ */
+body {
+  max-height: max-content;
+}
+header {
+  width: auto;
+  height: 120px;
+  background-color: darkslategrey;
+  color: antiquewhite;
+  text-transform: capitalize;
+}
+h1 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+header:hover {
+  background-color: #fff;
+  color: gold;
+}
+/* starting main foat */
+.main {
+  display: inline-block;
+  background-color: #ffffff;
+  gap: 25px;
+}
+.foat {
+  width: 200px;
+  background-color: #ffffff;
+  float: left;
+}
+.foat p {
+  background-color: blue;
+  color: #ffffff;
+  text-transform: capitalize;
+  height: 30px;
+  display: block;
+  margin: 10px auto;
+  padding-top: 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+.foat p:hover {
+  background-color: coral;
+  color: black;
+  text-transform: uppercase;
+}
+.text {
+  display: block;
+  margin-left: 230px;
+}
+.text h2 {
+  text-transform: capitalize;
+}
+
+.text:hover {
+  color: rgb(33, 119, 43);
+  font-size: larger;
+}
+/* starting footer field */
+footer {
+  width: auto;
+  height: 120px;
+  background-color: darkslategrey;
+  color: antiquewhite;
+  text-transform: capitalize;
+}
+footer p {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+footer:hover {
+  text-transform: uppercase;
+}

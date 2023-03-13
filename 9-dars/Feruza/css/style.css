@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header h1 {
+  margin: 0px;
+  padding: 50px;
+  background-color: darkslategrey;
+  color: white;
+}
+.boxes {
+  margin: 15px;
+  float: left;
+}
+.boxes h2 {
+ margin: 15px;
+ padding: 20px;
+ display: block;
+ background-color: cyan;
+}
+.main {
+  padding: 20px;
+}
+.footer {
+  margin: 0;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  background-color: darkslategray;
+  color:white ;
+}

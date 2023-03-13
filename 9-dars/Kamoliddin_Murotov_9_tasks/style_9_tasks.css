@@ -1,0 +1,29 @@
+header {
+  padding: 50px;
+  background-color: #444;
+  font-size: 50px;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+}
+aside {
+  float: left;
+}
+aside h1 {
+  padding: 30px;
+  background-color: aqua;
+  width: 200px;
+  margin-right: 20px;
+}
+footer {
+  padding: 50px;
+  background-color: #444;
+  margin-top: 50px;
+  font-size: 30px;
+  color: azure;
+}
+article {
+  font-size: 20px;
+}
+.valensiya {
+  margin-top: 30px;
+}
