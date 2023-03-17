@@ -17,13 +17,12 @@
 3. Box model, margin collapsing, width, height, max-width, max-height, min-width and min-height.
 4. Display. text-align, vertical-align, float, text-decoration, pseudo-classes in CSS.
 5. Position, z-index, overflow.
-6. Background. Styling images(gradient, colors). Units: percent, em, rem. 
+6. Background. Styling images(gradient, colors). Units: percent, em, rem.
 7. VW and VH. About RWD. Media queries, breakpoints.
 8. 2D, 3D transforms. Transitions. Shadow.
 9. Animations, fonts.
-10. Flexbox.
-11. Grid. Best practises. BEM.
-12. Practical work.
+10. Flexbox. Grid. Best practises. BEM.
+11. Practical work.
 
 ## **_Git:_**
 
