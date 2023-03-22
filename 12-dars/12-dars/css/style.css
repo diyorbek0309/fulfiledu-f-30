@@ -1,0 +1,161 @@
+/* Main styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(135deg, #b0fcfc, #0a878d);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* /Main styles */
+
+/* Header section */
+
+.site-header .flex-container {
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.site-nav__list {
+    display: flex;
+}
+
+.site-nav__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.site-nav__link {
+    font-weight: 600;
+}
+
+.site-nav__link.active::after {
+    transform: scaleX(1);
+}
+
+.site-nav__link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+  
+.site-nav__link:hover::after {
+    transform: scaleX(1);
+}
+  
+.right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.right-buttons__lang {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 600;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    background-color: #8dd2d7;
+    border-radius: 10px;
+}
+
+.right-buttons__lang span {
+    transform: rotate(90deg);
+}
+
+.right-buttons__theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+/* /Header section */
+
+/* Intro section */
+
+.main-section {
+    height: 100%;
+}
+
+.site-intro {
+    height: 100%;
+}
+
+.site-intro .flex-container {
+    height: 100%;
+}
+
+.site-intro__info {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/image1.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 500px 100px;
+}
+
+.site-intro__title {
+    margin-top: 250px;
+    font-size: 60px;
+}
+
+.site-intro__suptitle {
+    font-size: 25px;
+}
+
+.btn-dark {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+}
