@@ -1,0 +1,42 @@
+.box {
+  background-color: red;
+  margin: 100px 0 0 100px;
+  width: 200px;
+  height: 200px;
+  /* transform: translate(500px, 150px) rotate(90deg) scale(0.5, 2); */
+  /* transform: scale(0.5, 2); */
+  /* transform: skew(-45deg); */
+  /* transform: skewY(-45deg); */
+  /* transform: perspective(600px) rotateX(30deg) rotateY(45deg) rotateZ(60deg); */
+  /* transform: translate3d(500px, 150px, 100px); */
+  /* transform: matrix(); */
+  /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+  /* transform: scale3d(2, 1, 0.5); */
+  /* transition: all 3s; */
+  /* transition-timing-function: ease-in; */
+  /* transition-delay: 2s; */
+  box-shadow: 5px 5px 20px blue;
+}
+
+/* .box:hover {
+  width: 500px;
+  height: 400px;
+  background-color: green;
+} */
+
+/* .box2 {
+  background-color: red;
+  margin: 100px 0 0 100px;
+  width: 200px;
+  height: 200px; */
+/* transform: translate(500px, 150px) rotate(90deg) scale(0.5, 2); */
+/* transform: scale(0.5, 2); */
+/* transform: skew(-45deg); */
+/* transform: skewY(-45deg); */
+/* transform: rotate(30deg); */
+/* } */
+
+h1 {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  color: #fff;
+}
