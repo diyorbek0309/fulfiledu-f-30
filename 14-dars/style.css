@@ -1,0 +1,87 @@
+@keyframes animatsiya {
+  /* from {
+    background-color: red;
+  }
+  to {
+    background-color: green;
+  } */
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: aqua;
+  }
+  67% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes box-mover {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: red;
+  }
+  25% {
+    top: 0;
+    left: 500px;
+    background-color: green;
+  }
+  50% {
+    top: 300px;
+    left: 500px;
+    background-color: yellow;
+  }
+  75% {
+    top: 300px;
+    left: 0;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: yellow;
+  }
+}
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-left: 40px;
+  background-color: yellow;
+  animation: box-mover 4s ease-in infinite;
+  /* animation-name: box-mover;
+  animation-duration: 4s; */
+  /* animation-delay: 5s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate-reverse; */
+  /* animation-timing-function: ease-in; */
+  /* animation-fill-mode: forwards; */
+}
+
+.box:hover {
+  animation-play-state: paused;
+}
+
+.beside {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+}
+
+@font-face {
+  font-family: Alkatra;
+  src: url("../assets/fonts/Alkatra/Alkatra.ttf");
+}
+/* TTF - True Type Font */
+
+h1 {
+  font-family: Alkatra;
+  font-weight: 900;
+  line-height: 300%; /* 64px */
+  letter-spacing: -2px;
+}
