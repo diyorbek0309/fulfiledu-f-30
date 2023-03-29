@@ -21,8 +21,8 @@
 7. VW and VH. About RWD. Media queries, breakpoints.
 8. 2D, 3D transforms. Transitions. Shadow.
 9. Animations, fonts.
-10. Flexbox. Grid. Best practises. BEM.
-11. Practical work.
+10. Flexbox. Grid. 
+11. Best practises. Practical work.
 
 ## **_Git:_**
 
