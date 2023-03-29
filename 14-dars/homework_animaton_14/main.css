@@ -1,0 +1,65 @@
+/** @format */
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+.wrapper {
+	position: absolute;
+	top: 5rem;
+	left: 5rem;
+	display: grid;
+	gap: 0.5rem;
+	display: flex;
+}
+
+.box-loader-part-1,
+.box-loader-part-2,
+.box-loader-part-3 {
+	width: 1.5rem;
+	height: 3rem;
+	display: inline-block;
+	background-color: #000;
+}
+.box-loader-part-1 {
+	animation: bir 1.01s linear infinite;
+}
+.box-loader-part-2 {
+	animation: ikki 1.2s linear infinite;
+}
+.box-loader-part-3 {
+	animation: uchinchi 1.3s linear infinite;
+}
+
+@keyframes bir {
+	0% {
+		transform: scaleY(2);
+	}
+
+	/* 50% {
+		transform: scaleY(1.2);
+	} */
+
+	50%,
+	100% {
+		transform: scaleY(1);
+	}
+}
+@keyframes ikki {
+	0% {
+		transform: scaleY(2);
+	}
+	50%,
+	100% {
+		transform: scaleY(1);
+	}
+}
+@keyframes uchinchi {
+	0% {
+		transform: scaleY(2);
+	}
+	50%,
+	100% {
+		transform: scaleY(1);
+	}
+}

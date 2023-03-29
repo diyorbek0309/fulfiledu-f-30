@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-solid {
+    color: inherit;
+    transition: inherit;
+    margin-left: 5px;
+}
+
+.main-section__logo {
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
+.main-section__subtitle {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.main-section {
+    background-image: linear-gradient(to right, cadetblue, rgba(0, 0, 0, 0)),
+        url(https://picsum.photos/id/5/1920/1080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cards {
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff50;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.card-1 {
+    width: 30%;
+    height: 100%;
+    margin-bottom: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.card-1:hover {
+    background-color: #fff;
+    transform: scale(1.2);
+    position: relative;
+    left: 15px;
+}
+
+.card-1__title {
+    color: #fff;
+    margin-bottom: 5px;
+    transition: 0.5s all ease;
+}
+
+.card-1:hover .card-1__title {
+    color: cadetblue;
+}
+
+.card-1:hover .fa-solid {
+    color: cadetblue;
+}
+
+.card-1__subtitle {
+    color: #fff;
+    transition: 0.5s all ease;
+}
+
+.card-1:hover .card-1__subtitle {
+    color: #000;
+}
+
+.card-2 {
+    width: 30%;
+    height: 100%;
+    margin-bottom: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.card-2:hover {
+    background-color: #fff;
+    transform: scale(1.2);
+    position: relative;
+    left: 15px;
+}
+
+.card-2__title {
+    color: #fff;
+    margin-bottom: 5px;
+    transition: 0.5s all ease;
+}
+
+.card-2:hover .card-2__title {
+    color: cadetblue;
+}
+
+.card-2:hover .fa-solid {
+    color: cadetblue;
+}
+
+.card-2__subtitle {
+    color: #fff;
+    transition: 0.5s all ease;
+}
+
+.card-2:hover .card-2__subtitle {
+    color: #000;
+}
+
+.card-3 {
+    width: 30%;
+    height: 100%;
+    margin-bottom: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.card-3:hover {
+    background-color: #fff;
+    transform: scale(1.2);
+    position: relative;
+    left: 15px;
+}
+
+.card-3__title {
+    color: #fff;
+    margin-bottom: 5px;
+    transition: 0.5s all ease;
+}
+
+.card-3:hover .card-3__title {
+    color: cadetblue;
+}
+
+.card-3:hover .fa-solid {
+    color: cadetblue;
+}
+
+.card-3__subtitle {
+    color: #fff;
+    transition: 0.5s all ease;
+}
+
+.card-3:hover .card-3__subtitle {
+    color: #000;
+}
+
+.main-section__footer {
+    color: #fff;
+    margin-top: 25px;
+}

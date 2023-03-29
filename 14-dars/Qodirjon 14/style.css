@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delicious+Handrawn&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  background-color: #111;
+}
+
+.wrapper {
+  width: 260px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+
+.load {
+  width: 60px;
+  height: 120px;
+  background-color: #180f99;
+  position: relative;
+  overflow: hidden;
+}
+
+.load > span {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgb(8, 91, 138);
+  background: linear-gradient(
+    0deg,
+    rgba(8, 91, 138, 0.47942927170868344) 0%,
+    rgba(0, 254, 234, 0.8071603641456583) 50%,
+    rgba(8, 91, 138, 0.4290091036414566) 100%
+  );
+  animation: loader 1s linear infinite;
+}
+
+.first {
+  animation: loader 1s ease-in-out infinite;
+}
+
+.second {
+  animation: loader 1s ease-in-out 0.2s infinite;
+}
+
+.third {
+  animation: loader 1s ease-in-out 0.4s infinite;
+}
+
+footer {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Delicious Handrawn";
+}
+
+footer span {
+  font-family: "Dancing Script", cursive;
+  text-shadow: 0px 0px 35px #095ece;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+footer span::after {
+  content: "";
+  animation: text-animated 5s linear 1s infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: scaleY(1);
+  }
+
+  10% {
+    transform: scaleY(1.6);
+  }
+
+  20% {
+    transform: scaleY(1.3);
+  }
+
+  30% {
+    transform: scaleY(1.25);
+  }
+
+  40% {
+    transform: scaleY(1.2);
+  }
+
+  50% {
+    transform: scaleY(1.15);
+  }
+
+  60% {
+    transform: scaleY(1.1);
+  }
+
+  70% {
+    transform: scaleY(1.05);
+  }
+
+  80% {
+    transform: scaleY(1);
+  }
+
+  90% {
+    transform: scaleY(0.95);
+  }
+
+  100% {
+    transform: scaleY(0.9);
+  }
+}
+
+@keyframes text-animated {
+  0% {
+    content: "";
+  }
+  5% {
+    content: "Q";
+  }
+  10% {
+    content: "Qo";
+  }
+  15% {
+    content: "Qod";
+  }
+  20% {
+    content: "Qodi";
+  }
+  25% {
+    content: "Qodir";
+  }
+  30% {
+    content: "Qodirj";
+  }
+  35% {
+    content: "Qodirjo";
+  }
+  40% {
+    content: "Qodirjon";
+  }
+  45% {
+    content: "Qodirjon D";
+  }
+  50% {
+    content: "Qodirjon Da";
+  }
+  55% {
+    content: "Qodirjon Dad";
+  }
+  60% {
+    content: "Qodirjon Dada";
+  }
+  65% {
+    content: "Qodirjon Dadab";
+  }
+  70% {
+    content: "Qodirjon Dadabo";
+  }
+  75% {
+    content: "Qodirjon Dadaboy";
+  }
+  85% {
+    content: "Qodirjon Dadaboye";
+  }
+  90% {
+    content: "Qodirjon Dadaboyev";
+  }
+  95% {
+    content: "Qodirjon Dadaboyev!";
+  }
+
+  100% {
+    content: "Qodirjon Dadaboyev!!!";
+  }
+}

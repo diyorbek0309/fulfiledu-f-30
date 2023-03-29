@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loader {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.load {
+  width: 20px;
+  height: 50px;
+  background-color: gray;
+  margin: 10px;
+  animation-name: loader;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.load-2 {
+  animation-delay: 0.2s;
+}
+
+.load-3 {
+  animation-delay: 0.4s;
+}
+
+@keyframes loader {
+  0% {
+    scale: 1 1;
+  }
+  25% {
+    scale: 1 2;
+  }
+  50% {
+    scale: 1 1;
+  }
+  75% {
+    scale: 1 1;
+  }
+  100% {
+    scale: 1 1;
+  }
+}
