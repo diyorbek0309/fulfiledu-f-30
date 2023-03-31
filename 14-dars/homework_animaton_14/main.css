@@ -22,7 +22,7 @@
 	background-color: #000;
 }
 .box-loader-part-1 {
-	animation: bir 1.01s linear infinite;
+	animation: bir 1s linear infinite;
 }
 .box-loader-part-2 {
 	animation: ikki 1.2s linear infinite;
@@ -36,15 +36,12 @@
 		transform: scaleY(2);
 	}
 
-	/* 50% {
-		transform: scaleY(1.2);
-	} */
-
 	50%,
 	100% {
 		transform: scaleY(1);
 	}
 }
+
 @keyframes ikki {
 	0% {
 		transform: scaleY(2);
@@ -54,6 +51,7 @@
 		transform: scaleY(1);
 	}
 }
+
 @keyframes uchinchi {
 	0% {
 		transform: scaleY(2);

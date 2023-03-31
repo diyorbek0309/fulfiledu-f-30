@@ -1,0 +1,65 @@
+/* General CSS started */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+
+h3 {
+  color: white;
+  opacity: 1;
+}
+
+.transition_container {
+  display: flex;
+  background-color: rgb(155, 186, 242);
+  border-radius: 1.3rem;
+  flex-wrap: wrap;
+}
+.transition_item {
+  min-height: 10rem;
+  min-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1.5s ease-in-out;
+  background-color: inherit;
+  opacity: 0.8;
+  border-radius: 1.3rem;
+}
+
+/* General CSS finished */
+
+/* Navbar CSS started */
+
+.transition_item:hover {
+  opacity: 1;
+  transform: scale(1.07);
+  z-index: 3;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.transition_item:hover h3 {
+  color: #000;
+}
+
+

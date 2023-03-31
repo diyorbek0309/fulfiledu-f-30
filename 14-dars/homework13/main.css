@@ -1,94 +1,98 @@
 /** @format */
 
 body {
-	position: relative;
-	margin: 0%;
-	background-color: #fff;
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  margin: 0%;
+  background-color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 h1 {
-	position: relative;
-	color: indigo;
-	top: 2rem;
-	left: 3rem;
+  position: relative;
+  color: indigo;
+  top: 2rem;
+  left: 3rem;
 }
 h1 span {
-	color: blue;
+  color: blue;
 }
 .main-part-section {
-	position: absolute;
-	top: 5rem;
-	left: 8%;
-	margin: 3rem;
-	padding: 26px;
-	width: 75vmax;
-	height: 25rem;
-	font-size: larger;
-	border-radius: 15px;
-	color: #fff;
-	background: linear-gradient(to right, aqua, rgb(65, 122, 220));
+  position: absolute;
+  top: 5rem;
+  left: 8%;
+  margin: 3rem;
+  padding: 26px;
+  width: 75vmax;
+  height: 25rem;
+  font-size: larger;
+  border-radius: 15px;
+  color: #fff;
+  background: linear-gradient(to right, aqua, rgb(65, 122, 220));
 }
 ul {
-	display: flex;
-	gap: 2rem;
-	padding-right: 10rem;
-	justify-content: right;
-	justify-items: center;
-	list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  padding-right: 10rem;
+  justify-content: right;
+  justify-items: center;
+  list-style-type: none;
 }
 /* ichkardagi royxatdan otish va online */
 .center-menular {
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-	width: 65vmax;
-	height: 10rem;
-	background-color: darkgrey;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	/* justify-items: center; */
-	border-radius: 20px;
-	opacity: 1.5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 65vmax;
+  height: 10rem;
+  background-color: darkgrey;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  /* justify-items: center; */
+  border-radius: 20px;
+  opacity: 1.5;
 }
 a {
-	text-decoration: none;
-	color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 /* ichkaridagi mini divlar */
 .mini-info-fa-registr {
-	text-align: center;
-	padding-top: 2rem;
-	line-height: 3rem;
-	width: 20rem;
-	height: 8rem;
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 3rem;
+  width: 20rem;
+  height: 8rem;
 }
 .mini-info-fa-registr:hover {
-	background-color: #fff;
-	color: black;
-	border-radius: 20px;
-	height: 8rem;
-	padding: 16px;
-	color: rgb(65, 122, 220);
-	transition: all 3s ease-in-out;
+  background-color: #fff;
+  color: black;
+  border-radius: 20px;
+  height: 8rem;
+  padding: 16px;
+  color: rgb(65, 122, 220);
+  transition: all 0.5s ease-in-out;
 }
+
 .mini-info-fa-registr:hover .katta-sign {
-	background-color: rgb(65, 122, 220);
+  background-color: rgb(65, 122, 220);
 }
+
 .mini-info-fa-registr:hover a {
-	color: darkgray;
+  color: darkgray;
 }
+
 .katta-sign {
-	font-size: larger;
-	border-radius: 50%;
-	border: none;
-	width: 2rem;
-	height: 2rem;
-	background-color: #fff;
+  font-size: larger;
+  border-radius: 50%;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
 }
+
 .bottom-p {
-	position: relative;
-	text-decoration: none;
-	display: inline-block;
-	top: 3rem;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  top: 3rem;
 }
