@@ -35,3 +35,16 @@ let son2 = "24";
 // console.log(son1 === son2); // false
 // console.log(son1 != son2); // false
 // console.log(son1 !== son2); // true
+
+// Assignment operators
+
+let son3 = 45;
+let son4 = 15;
+
+// son4 = son3 + son4; // 60
+// son4 += son3; // son4 = son4 + son3
+// son4 -= son3; // son4 = son4 - son3
+// son4 *= son3; // son4 = son4 * son3
+// son4 /= son3; // son4 = son4 / son3
+son4 %= son3; // son4 = son4 % son3 15 % 45 = 0 (15q)
+console.log(son4);
