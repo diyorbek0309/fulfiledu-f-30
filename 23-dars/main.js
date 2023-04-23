@@ -51,6 +51,72 @@ function isEvenOrOdd(num) {
   console.log(num % 2 ? "Toq" : "Juft");
 }
 
-isEvenOrOdd(10);
+// isEvenOrOdd(10);
 
 // falsy values: undefined, null, 0, false, [], ...
+
+// let numberOfDay = 3;
+
+// switch (numberOfDay) {
+//   case 1:
+//     console.log("Dushanba");
+//     break;
+//   case 2:
+//     console.log("Seshanba");
+//     break;
+//   case 3:
+//     console.log("Chorshanba");
+//     break;
+//   case 4:
+//     console.log("Payshanba");
+//     break;
+//   case 5:
+//     console.log("Juma");
+//     break;
+//   case 6:
+//     console.log("Shanba");
+//     break;
+//   case 7:
+//     console.log("Yakshanba");
+//     break;
+//   default:
+//     console.log("Bunday hafta kuni yo'q!");
+// }
+
+// Ismatulla
+
+function categoryByAge(age) {
+  if (age <= 16) {
+    console.log("O'quvchi");
+  } else if (age > 16 && age <= 25) {
+    console.log("Talaba");
+  } else if (age > 25 && age <= 60) {
+    console.log("Ishchi");
+  } else if (age > 60) {
+    console.log("Nafaqaxo'r");
+  } else {
+    console.log("please enter other amount");
+  }
+}
+
+// categoryByAge();
+
+// 3rd task
+
+function biggestSum(num1, num2, num3) {
+  let largest = num1;
+  let secondLargest = num2;
+  if (num2 > largest) {
+    secondLargest = largest;
+    largest = num2;
+  } 
+
+  if (num3 > largest) {
+    secondLargest = largest;
+    largest = num3;
+  } else if (secondLargest < num3) {
+    secondLargest = num3;
+  }
+  console.log(largest + secondLargest);
+}
+biggestSum(21, 3, 4);
