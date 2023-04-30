@@ -32,18 +32,3 @@
 // console.log(Object.keys(developer));
 // console.log(Object.entries(developer));
 
-const arr1 = [34, 12, 76, 87, 43];
-const arr2 = [76, 45, -28, 99];
-
-function maxMin(arr) {
-  let arrMax = arr[0];
-
-  for (let i = 1; i < arr.length; i++) {
-    if (arrMax < arr[i]) {
-      arrMax = arr[i];
-    }
-  }
-  console.log(arrMax);
-}
-
-maxMin(arr1);
