@@ -57,7 +57,7 @@
 
 ### **JavaScript Advanced:**
 
-14. Spread operator and Rest Parameter. Getter and Setter.
+14. Copying objects. Spread operator and Rest Parameter. Destructuring. Getter and Setter.
 15. Try/Catch. Scopes. Let, var and const. this keyword.
 16. Synchronous and asynchronous JS. Callback. Promise. async/await.
 17. OOP Basics. Solving simple problems in JS.

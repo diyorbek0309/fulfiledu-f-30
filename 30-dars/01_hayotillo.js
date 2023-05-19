@@ -128,7 +128,7 @@ should return 10 because 1 + 2 + 3 + 4 = 10.*/
 
 // const addUp = (num) => {
 //     let sum = 0
-//     for(let i = 0; i <= num; i++){
+//     for(let i = 0; i <= num; i++) {
 //         sum += i
 //     }
 //     return sum
@@ -145,8 +145,8 @@ Create a function that takes a number as an argument and returns the highest dig
 that number.*/
 
 const highestDigit = (num) => {
-    
-    numString = num.split("");
+    let numString = num.toString()
+    numString = numString.split("");
     let result = +(Math.max(numString))
 
     // for (let i = 1; i < numString.length; i++){
