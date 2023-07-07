@@ -1,19 +1,22 @@
-import { useState } from "react";
 import "./App.css";
+import Welcome from "./Welcome";
+import Button from "./Button";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
+    <div>
+      <Welcome ism="Ismatulla" familiya="Qo'yliyev" />
+      <Welcome ism="Hayotilla" familiya="Numonov" />
+      <Welcome ism="Diyorbek" familiya="Olimov" />
+      <Button>Jonatish</Button>
+      {/* <Button children="Jonatish"/> */}
+    </div>
   );
 }
+
+// const test = "test";
+// const test2 = 34;
+
+// export { App, test, test2 };
 
 export default App;
