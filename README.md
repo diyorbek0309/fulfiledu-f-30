@@ -75,18 +75,20 @@
 ### React.js Fundamentals:
 
 1. General concepts. CRA. Package managers (npm, yarn). Class and functional components.
-2. JSX (React.createElement). Props (mapping, passing values and functions from parent to child and from child to parent).
-3. Style (styled-components, module.css). Install react libraries (bootstrap).
-4. Class components. State, lifecycle methods, functions in class components
-5. Working pages. React-router-dom.
-6. Getting value from input. Ref. Event.
+2. Export/Import statements. JSX syntax. Props and children.
+3. Styling (styled-components, module.css). Installing libraries. Mapping. 
+4. Functional component. About functional component. Hooks (useRef) 
+5. Hooks 2 (useState, useEffect).
+6. React-router-dom.
 
 ### **React.js Advanced:**
 
-1. Functional component. About functional component. Hooks (useState, useEffect, useRef).
-2. Working with hooks (useReducer, useContext, custom hook).
-3. Code-splitting. Memoization. Error Boundary.
-4. Redux. React – redux. Redux – thunk.
+7. Class components. State, lifecycle methods, functions in class components.
+8. Hooks 3 (useReducer, useTransition, custom hook).
+9. Working with REST API and axios.
+10. Code-splitting. Memoization. Error Boundary.
+11. Context API.
+12. Redux and Redux-toolkit.
 
 ## **_Practise 3:_**
 
@@ -96,19 +98,21 @@
 
 ## _Next.js:_
 
-1. Introduction to Next.js. SSR vs SPA. Next.js and React.js
+1. Introduction to Next.js. SSR vs SPA. React.js and Next.js.
 2. Routing and dynamic routes.
-3. Data Fetching: getStaticPaths, getStaticProps.
-4. Working with REST API.
+3. Data fetching: getStaticPaths, getStaticProps.
+4. Optimizing: fonts, images, metadata.
 
 ## _Practise 4:_
 
-1. Creating landing page with Ant-design (Section 1).
-2. Creating landing page with Ant-design (Section 2).
-3. Creating landing page with Ant-design (Section 3).
-4. Creating landing page with Ant-design (Section 4).
+1. Creating landing page with Tailwind CSS (Section 1).
+2. Creating landing page with Tailwind CSS (Section 2).
+3. Creating landing page with Tailwind CSS (Section 3).
+4. Creating landing page with Tailwind CSS (Section 4).
 5. Creating admin panel for landing page with Ant-design (Section 1).
 6. Creating admin panel for landing page with Ant-design (Section 2).
 7. Creating admin panel for landing page with Ant-design (Section 3).
 8. Creating admin panel for landing page with Ant-design (Section 4).
-9. Competition 3.
+9. Creating admin panel for landing page with Ant-design (Section 5).
+10. Competition 3.
+11. Final lesson: tips, resume review and etc. 
